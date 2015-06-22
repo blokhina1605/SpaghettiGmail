@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll" parallel="false">
+
+    <test name="AttachFileTest">
+        <classes>
+            <class name="com.epam.blokhina.AttachFileTest"/>
+        </classes>
+    </test>
+    <test name="ChangeThemeTest">
+        <classes>
+            <class name="com.epam.blokhina.ChangeThemeTest"/>
+
+        </classes>
+    </test>
+    <test name="DragAndDropTest">
+        <classes>
+            <class name="com.epam.blokhina.DragAndDropTest"/>
+        </classes>
+    </test>
+
+    <test name="SpamTest">
+        <classes>
+            <class name="com.epam.blokhina.SpamTest"/>
+        </classes>
+    </test>
+
+</suite>
